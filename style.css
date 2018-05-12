@@ -67,6 +67,10 @@ font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 36px;
 }
 
+p {
+  color: #777;
+}
+
 /* FOOTER */
 
 footer {
@@ -78,3 +82,50 @@ footer {
   color: lightgray;
   font-size: 12px;
 }
+
+/* @media only screen and (max-width: 960px) {
+  body {
+  background: rgb(235, 232, 232);
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar {
+    background-color: #fff; 
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    background: #fff;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar-brand {
+      color: #fff;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+  background: rgb(235, 232, 232);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: #fff; 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    background: #fff;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+      color: #fff;
+  }

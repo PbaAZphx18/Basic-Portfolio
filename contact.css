@@ -34,6 +34,18 @@ body {
   color: #fff;
 }
 
+/* MAIN BODY */
+
+.container {
+  padding: 20px;
+  width: 960px;
+  margin-left: 200px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  background: #fff;
+}
+
 h2 {
   color: #4aaaa5;
   border-bottom: 3px solid lightgray;
@@ -42,11 +54,11 @@ h2 {
 }
 
 .form-group {
-  color: #999;
+  color: #777;
 }
 
 .placeholder {
-  color: #999;
+  color:#777;
 }
 
 .btn {
@@ -57,17 +69,6 @@ h2 {
 }
 
 
-
-.container {
-  padding: 20px;
-  width: 960px;
-  margin-left: 200px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  border: 1px solid lightgray;
-  background: #fff
-}
- 
  /* FOOTER */
 
  .container-footer {
@@ -79,3 +80,50 @@ h2 {
   color: lightgray;
   font-size: 12px;
 }
+
+/* @media only screen and (max-width: 960px) {
+  body {
+  background: rgb(235, 232, 232);
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar {
+    background-color: #fff; 
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    background: #fff;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar-brand {
+      color: #fff;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+  background: rgb(235, 232, 232);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: #fff; 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    background: #fff;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+      color: #fff;
+  } */

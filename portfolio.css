@@ -33,6 +33,8 @@ body {
    color: #fff;
 }
 
+/* MAIN BODY */
+
  .container {
   padding: 0;
   width: 960px;
@@ -40,7 +42,7 @@ body {
   margin-top: 40px;
   margin-bottom: 20px;
   border: 1px solid lightgray;
-  background: #fff
+  background: #fff;
 }
 
  h2 {
@@ -48,10 +50,6 @@ body {
   border-bottom: 3px solid lightgray;
   padding: 20px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-#name {
-  color: #fff;
 }
 
  .row {
@@ -69,3 +67,50 @@ body {
   color: lightgray;
   font-size: 12px;
 }
+
+/* @media only screen and (max-width: 960px) {
+  body {
+  background: rgb(235, 232, 232);
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar {
+    background-color: #fff; 
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    background: #fff;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar-brand {
+      color: #fff;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+  background: rgb(235, 232, 232);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: #fff; 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    background: #fff;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+      color: #fff;
+  }
